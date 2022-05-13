@@ -40,8 +40,8 @@ let count_time = setInterval(function () {
 
         result_message = "Success";
         window.parent.postMessage({message: result_message}, "*");
-    } else if (keep_time[2] >= 20) {
-        //초를 얼마나 있다가 할지 몰라서 대충 20초로 해둠
+    } else if (keep_time[2] >= 35) {
+        //초를 얼마나 있다가 할지 몰라서 대충 35초로 해둠
         clearInterval(count_time);
 
         result_message = "Fail";
