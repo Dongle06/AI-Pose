@@ -35,7 +35,7 @@ posenet.load().then((model) => {
 });
 
 let count_time = setInterval(function () {
-    if (pose_count >= 7) {
+    if (pose_count == 7) {
         clearInterval(count_time);
 
         result_message = "Success";
