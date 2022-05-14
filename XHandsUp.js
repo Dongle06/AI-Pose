@@ -86,12 +86,13 @@ function check_HandsUp(pose) {
 
     //팔꿈치가 어깨보다 높을 것, 양 팔꿈치 사이에 머리가 위치할 것
     if (re.y < rs.y && le.y < ls.y && re.x < head.x && head.x < le.x) {
-        //양쪽 손목 중, 어느 하나라도 머리보다는 위에 위치할 것
-        if (rw.y < head.y || lw.y < head.y) {
-            return true;
-        } else {
-            return false;
-        }
+        return true;
+//         //양쪽 손목 중, 어느 하나라도 머리보다는 위에 위치할 것
+//         if (rw.y < head.y || lw.y < head.y) {
+//             return true;
+//         } else {
+//             return false;
+//         }
     } else {
         return false;
     }
