@@ -48,7 +48,7 @@ let count_time = setInterval(function () {
         else if (pose_status == 2) window.parent.postMessage({message: `포즈를 취해주세요.`}, "*");
         //result_label.innerText = `포즈를 취해주세요.`;
 
-        if (pose_status != 2 && keep_time[pose_status] == 5) {
+        if (pose_status != 2 && keep_time[pose_status] == 6) { //5초까지 출력
             if (pose_status == 0) {
                 //new Audio(URL + "HandsUp_choose.mp3").play();
                 result_message = "HandsUp";
