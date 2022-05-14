@@ -45,7 +45,7 @@ let count_time = setInterval(function () {
             window.parent.postMessage({message: `X를 ${keep_time[pose_status]}초 유지하셨습니다.`}, "*");
         else if (pose_status == 2) window.parent.postMessage({message: `포즈를 취해주세요.`}, "*");
 
-        if (pose_status != 2 && keep_time[pose_status] == 5) {
+        if (pose_status != 2 && keep_time[pose_status] == 6) { //5초까지 출력하도록
             if (pose_status == 0) {
                 //new Audio(URL + "O_choose.mp3").play();
                 result_message = "O";
