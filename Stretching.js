@@ -43,7 +43,7 @@ let count_time = setInterval(function () {
             window.parent.postMessage({message: `자세를 ${keep_time[pose_status]}초 유지하셨습니다.`}, "*");
         else if (pose_status == 2) window.parent.postMessage({message: `포즈를 취해주세요.`}, "*");
 
-        if (keep_time[0] == 7 || keep_time[1] >= 50) {
+        if (keep_time[0] == 7 || keep_time[1] >= 35) {
             //전체 시간 체크 (1번 인덱스)
             if (keep_time[0] >= 7) {
                 //new Audio(URL + "O_choose.mp3").play();
