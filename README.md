@@ -7,9 +7,11 @@
  - 판단하는 자세별로 파일을 나누어 둠
 
 ### 3. 파일 설명
-  #### .html
+  #### <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   - PoseNet을 사용하기 위한 script파일 로드. (중요 코드는 js 파일에 들어있다.)
-  #### .js
+  #### <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  - video와 canvas의 위치를 일치시킨다.
+  #### <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
   - 판단하는 자세별로 코드를 나누어 두었다. (OX, XHandsUp, Stretching, Stretching2)
   - js 파일에서 하는 기능들
       1. 웹캠 켜는 코드
